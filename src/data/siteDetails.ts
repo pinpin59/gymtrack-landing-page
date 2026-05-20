@@ -1,12 +1,13 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
-    metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
-    },
-    language: 'en-us',
-    locale: 'en-US',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
-    googleAnalyticsId: '', // e.g. G-XXXXXXX,
-}
+  siteName: "Atlas",
+  siteUrl: "https://Atlas.app/",
+  metadata: {
+    title: "Atlas — Sais-tu vraiment si tu progresses ?",
+    description:
+      "Atlas analyse ta progression en musculation et te dit si tu progresses vraiment ou si tu stagnes sans le savoir.",
+  },
+  language: "fr",
+  locale: "fr-FR",
+  siteLogo: `${process.env.BASE_PATH || ""}/images/logo.png`,
+  googleAnalyticsId: "",
+};

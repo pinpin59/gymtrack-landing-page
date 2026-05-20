@@ -1,72 +1,94 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import {
+  FiBarChart2,
+  FiAlertCircle,
+  FiActivity,
+  FiMessageSquare,
+  FiTrendingUp,
+  FiTarget,
+  FiZap,
+  FiCheckCircle,
+  FiEye,
+} from "react-icons/fi";
 
-import { IBenefit } from "@/types"
+import { IBenefit } from "@/types";
 
 export const benefits: IBenefit[] = [
-    {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
-        bullets: [
-            {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
-                icon: <FiBarChart2 size={26} />
-            },
-            {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
-                icon: <FiTarget size={26} />
-            },
-            {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
-                icon: <FiTrendingUp size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.webp"
-    },
-    {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
-        bullets: [
-            {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
-            },
-            {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
-            },
-            {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-2.webp"
-    },
-    {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
-        bullets: [
-            {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
-                icon: <FiLock size={26} />
-            },
-            {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
-            },
-            {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.webp"
-    },
-]
+  {
+    title: "Tracking simple et rapide",
+    description:
+      "Note tes séances en quelques secondes. Charges, reps, séries — tout est enregistré et prêt à être analysé sur le long terme.",
+    bullets: [
+      {
+        title: "Saisie ultra-rapide",
+        description:
+          "Entre tes performances en moins de 10 secondes par exercice.",
+        icon: <FiZap size={26} />,
+      },
+      {
+        title: "Tous tes exercices",
+        description:
+          "Squat, dévelé couché, tractions, isolation — chaque mouvement est suivi.",
+        icon: <FiActivity size={26} />,
+      },
+      {
+        title: "Historique complet",
+        description:
+          "Retrouve n'importe quelle séance passée et vois ta courbe d'évolution.",
+        icon: <FiBarChart2 size={26} />,
+      },
+    ],
+    imageSrc: "/images/removeSet.png",
+  },
+  {
+    title: "Analyse de progression réelle",
+    description:
+      "Finis les doutes. Atlas lit tes données sur plusieurs semaines et te dit objectivement si tu progresses ou si tu stagnes sans le voir.",
+    bullets: [
+      {
+        title: "Détection de stagnation",
+        description:
+          "L'app identifie automatiquement les périodes sans progression significative.",
+        icon: <FiAlertCircle size={26} />,
+      },
+      {
+        title: "Lecture du volume utile",
+        description:
+          "Sais si tu fais trop, pas assez, ou exactement ce qu'il faut pour progresser.",
+        icon: <FiTarget size={26} />,
+      },
+      {
+        title: "Tendance long terme",
+        description:
+          "Visualise ta progression réelle sur 4, 8, 12 semaines et plus.",
+        icon: <FiTrendingUp size={26} />,
+      },
+    ],
+    imageSrc: "/images/removeTracking.webp",
+  },
+  {
+    title: "Feedback intelligent",
+    description:
+      "Plus besoin d'interpréter des graphiques compliqués. Atlas te donne un verdict clair et actionnable après chaque période d'analyse.",
+    bullets: [
+      {
+        title: "Verdict clair",
+        description:
+          '"Tu progresses", "stagnation probable" ou "volume trop élevé" — sans jargon.',
+        icon: <FiMessageSquare size={26} />,
+      },
+      {
+        title: "Lecture visuelle simple",
+        description:
+          "Des indicateurs colorés pour comprendre ta situation en un coup d'œil.",
+        icon: <FiEye size={26} />,
+      },
+      {
+        title: "Actions concrètes",
+        description:
+          "Chaque feedback est accompagné de pistes pour corriger ou maintenir ta trajectoire.",
+        icon: <FiCheckCircle size={26} />,
+      },
+    ],
+    imageSrc: "/images/trackRemove.png",
+  },
+];

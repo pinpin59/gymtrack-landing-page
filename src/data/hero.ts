@@ -1,5 +1,6 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
-    centerImageSrc: '/images/hero-mockup.webp',
-}
+  heading: "Tu t'entraînes dur. Mais est-ce que tu progresses vraiment ?",
+  subheading:
+    "La plupart des pratiquants stagnent sans le savoir. Atlas va changer ça — inscris-toi pour être parmi les premiers à y avoir accès.",
+  centerImageSrc: "/images/homeRemove.png",
+};

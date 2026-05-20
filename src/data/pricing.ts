@@ -1,37 +1,36 @@
 import { IPricing } from "@/types";
 
 export const tiers: IPricing[] = [
-    {
-        name: 'Starter',
-        price: 29,
-        features: [
-            'Basic cloud integration',
-            'Up to 5 team members',
-            '20GB storage',
-            'Email support',
-        ],
-    },
-    {
-        name: 'Pro',
-        price: 99,
-        features: [
-            'Advanced cloud integration',
-            'Up to 20 team members',
-            '100GB storage',
-            'Priority email & phone support',
-            'Advanced analytics',
-        ],
-    },
-    {
-        name: 'Enterprise',
-        price: 'Custom',
-        features: [
-            'Full cloud integration',
-            'Unlimited team members',
-            'Unlimited storage',
-            '24/7 dedicated support',
-            'Custom solutions',
-            'On-site training',
-        ],
-    },
-]
+  {
+    name: "Gratuit",
+    price: 0,
+    features: [
+      "Tracking illimité (charges, reps, séries)",
+      "Historique des 30 derniers jours",
+      "Résumé hebdomadaire simple",
+      "Jusqu'à 5 exercices suivis",
+    ],
+  },
+  {
+    name: "Pro",
+    price: 6.99,
+    features: [
+      "Tracking illimité tous exercices",
+      "Analyse de progression réelle",
+      "Détection automatique de stagnation",
+      "Lecture du volume utile",
+      "Historique complet",
+      "Feedback intelligent hebdomadaire",
+    ],
+  },
+  {
+    name: "Annuel",
+    price: 49.99,
+    features: [
+      "Tout le plan Pro",
+      "2 mois offerts",
+      "Accès anticipé aux nouvelles fonctions",
+      "Support prioritaire",
+    ],
+  },
+];

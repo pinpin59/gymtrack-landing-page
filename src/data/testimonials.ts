@@ -1,23 +1,22 @@
 import { ITestimonial } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const testimonials: ITestimonial[] = [
-    {
-        name: 'John Smith',
-        role: 'CEO at Company',
-        message: `${siteDetails.siteName}'s AI-driven insights have transformed how we approach financial planning for our clients. It's an invaluable resource in the modern financial landscape.`,
-        avatar: '/images/testimonial-1.webp',
-    },
-    {
-        name: 'Jane Doe',
-        role: 'CTO at Startup',
-        message: `As a CTO, I'm impressed by ${siteDetails.siteName}'s robust security measures and seamless integrations. It's rare to find an app that balances user-friendliness with such advanced technology.`,
-        avatar: '/images/testimonial-2.webp',
-    },
-    {
-        name: 'Emily Johnson',
-        role: 'Product Manager',
-        message: `${siteDetails.siteName} is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth.`,
-        avatar: '/images/testimonial-3.webp',
-    },
+  {
+    name: "Thomas R.",
+    role: "Pratiquant depuis 4 ans",
+    message: `Avant Atlas, je notais mes séances mais je ne savais jamais si je progressais vraiment. Maintenant l'app me dit directement si mon volume est utile ou pas. C'est simple, mais ça change tout.`,
+    avatar: "/images/testimonial-1.webp",
+  },
+  {
+    name: "Camille M.",
+    role: "Pratiquante intermédiaire",
+    message: `J'ai compris grâce à Atlas que je stagnais depuis 3 mois sans m'en rendre compte. L'analyse de progression m'a permis d'ajuster mon programme et de voir des résultats concrets en quelques semaines.`,
+    avatar: "/images/testimonial-2.webp",
+  },
+  {
+    name: "Kevin D.",
+    role: "Powerlifter amateur",
+    message: `C'est exactement ce qui manquait. Pas un énième tracker basique — une vraie lecture intelligente de mes performances sur la durée. Je recommande à tous ceux qui veulent aller plus loin.`,
+    avatar: "/images/testimonial-3.webp",
+  },
 ];

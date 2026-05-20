@@ -1,25 +1,33 @@
 import { IFAQ } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
-    {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
-    },
-    {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
-    },
-    {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
-    },
-    {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
-    },
-    {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
-    }
+  {
+    question: "C'est quoi la différence avec une app de tracking classique ?",
+    answer:
+      "Les apps classiques te montrent des chiffres. Atlas te dit ce que ces chiffres signifient vraiment : est-ce que tu progresses, est-ce que tu stagnes, est-ce que ton volume est efficace ou non. C'est de l'intelligence de progression, pas du simple logging.",
+  },
+  {
+    question: "Comment l'app détecte-t-elle la stagnation ?",
+    answer:
+      "Atlas analyse l'évolution de tes charges, de ton volume et de tes reps sur plusieurs semaines. Si tes performances ne progressent plus sur une période significative, l'app te le signale clairement avec une explication.",
+  },
+  {
+    question: "Faut-il un niveau avancé pour utiliser l'app ?",
+    answer:
+      "Non. Atlas est conçu pour tout pratiquant sérieux, débutant avancé ou intermédiaire. L'analyse est présentée de façon simple et lisible, sans jargon scientifique.",
+  },
+  {
+    question: "L'app me dit quoi faire ou je dois choisir mon programme ?",
+    answer:
+      "Atlas ne te dicte pas un programme. Elle t'aide à comprendre si ce que tu fais fonctionne. Tu gardes la liberté de ton entraînement, l'app t'apporte la lecture intelligente.",
+  },
+  {
+    question: "Disponible sur iOS et Android ?",
+    answer: "Oui, Atlas sera disponible sur l'App Store et Google Play.",
+  },
+  {
+    question: "Puis-je essayer avant de payer ?",
+    answer:
+      "Absolument. La version gratuite te permet de tracker tes séances et d'accéder aux analyses de base sans limite de durée. Le plan Pro débloque l'analyse complète de progression et le feedback intelligent.",
+  },
 ];

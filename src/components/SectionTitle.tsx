@@ -1,13 +1,15 @@
-import React from 'react';
+import React from "react";
 
 interface SectionTitleProps {
-    children: React.ReactElement;
+  children: React.ReactElement;
 }
 
 const SectionTitle: React.FC<SectionTitleProps> = ({ children }) => {
-    return React.cloneElement(children, {
-        className: children.props.className + " text-3xl lg:text-5xl lg:leading-tight font-bold"
-    });
+  return React.cloneElement(children, {
+    className:
+      children.props.className +
+      " text-2xl sm:text-3xl lg:text-4xl xl:text-5xl lg:leading-tight font-bold",
+  });
 };
 
 export default SectionTitle;
