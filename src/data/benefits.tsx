@@ -2,90 +2,92 @@ import {
   FiBarChart2,
   FiAlertCircle,
   FiActivity,
-  FiMessageSquare,
   FiTrendingUp,
   FiTarget,
   FiZap,
   FiCheckCircle,
   FiEye,
+  FiRepeat,
+  FiLayers,
+  FiCompass,
 } from "react-icons/fi";
 
 import { IBenefit } from "@/types";
 
 export const benefits: IBenefit[] = [
   {
-    title: "Tracking simple et rapide",
+    title: "Enregistre tes entraînements simplement",
     description:
-      "Note tes séances en quelques secondes. Charges, reps, séries — tout est enregistré et prêt à être analysé sur le long terme.",
+      "Note tes séances en quelques secondes. Tout est structuré automatiquement pour suivre ton évolution dans le temps.",
     bullets: [
       {
-        title: "Saisie ultra-rapide",
+        title: "Saisie rapide",
         description:
-          "Entre tes performances en moins de 10 secondes par exercice.",
+          "Ajoute tes charges, répétitions et séries en quelques secondes par exercice.",
         icon: <FiZap size={26} />,
       },
       {
-        title: "Tous tes exercices",
+        title: "Suivi complet des exercices",
         description:
-          "Squat, dévelé couché, tractions, isolation — chaque mouvement est suivi.",
+          "Tous tes mouvements sont suivis dans le temps pour analyser ta progression.",
         icon: <FiActivity size={26} />,
       },
       {
-        title: "Historique complet",
+        title: "Historique structuré",
         description:
-          "Retrouve n'importe quelle séance passée et vois ta courbe d'évolution.",
+          "Retrouve et compare facilement tes performances sur plusieurs semaines.",
         icon: <FiBarChart2 size={26} />,
       },
     ],
     imageSrc: "/images/removeSet.png",
   },
   {
-    title: "Analyse de progression réelle",
+    title: "Comprends l’évolution de tes performances",
     description:
-      "Finis les doutes. Atlas lit tes données sur plusieurs semaines et te dit objectivement si tu progresses ou si tu stagnes sans le voir.",
+      "Altère organise tes séances et met en lumière ce que tes données disent vraiment sur ta progression.",
     bullets: [
       {
         title: "Détection de stagnation",
         description:
-          "L'app identifie automatiquement les périodes sans progression significative.",
+          "Repère les périodes où tes performances n’évoluent plus réellement.",
         icon: <FiAlertCircle size={26} />,
       },
       {
-        title: "Lecture du volume utile",
+        title: "Lecture de progression",
         description:
-          "Sais si tu fais trop, pas assez, ou exactement ce qu'il faut pour progresser.",
-        icon: <FiTarget size={26} />,
+          "Visualise clairement si ta force et ton volume évoluent positivement.",
+        icon: <FiTrendingUp size={26} />,
       },
       {
-        title: "Tendance long terme",
+        title: "Analyse long terme",
         description:
-          "Visualise ta progression réelle sur 4, 8, 12 semaines et plus.",
-        icon: <FiTrendingUp size={26} />,
+          "Observe tes tendances sur 4, 8, 12 semaines pour comprendre ton évolution réelle.",
+        icon: <FiLayers size={26} />,
       },
     ],
     imageSrc: "/images/removeTracking.webp",
   },
   {
-    title: "Feedback intelligent",
+    title: "Sache si ton entraînement fonctionne",
     description:
-      "Plus besoin d'interpréter des graphiques compliqués. Atlas te donne un verdict clair et actionnable après chaque période d'analyse.",
+      "Altère transforme tes données en compréhension simple : progression, stagnation ou surcharge.",
     bullets: [
       {
-        title: "Verdict clair",
+        title: "État de progression clair",
         description:
-          '"Tu progresses", "stagnation probable" ou "volume trop élevé" — sans jargon.',
-        icon: <FiMessageSquare size={26} />,
-      },
-      {
-        title: "Lecture visuelle simple",
-        description:
-          "Des indicateurs colorés pour comprendre ta situation en un coup d'œil.",
+          '"En progression", "stagnation probable" ou "charge excessive" — simple et direct.',
         icon: <FiEye size={26} />,
       },
       {
-        title: "Actions concrètes",
+        title: "Lecture instantanée",
         description:
-          "Chaque feedback est accompagné de pistes pour corriger ou maintenir ta trajectoire.",
+          "Comprends en un coup d’œil où tu en es dans ton entraînement.",
+        icon: <FiCompass size={26} />,
+      },
+      {
+        title: "Ajustements guidés",
+        description:
+          "Identifie facilement ce que tu dois ajuster pour progresser.",
         icon: <FiCheckCircle size={26} />,
       },
     ],

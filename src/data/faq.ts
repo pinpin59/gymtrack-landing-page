@@ -4,30 +4,30 @@ export const faqs: IFAQ[] = [
   {
     question: "C'est quoi la différence avec une app de tracking classique ?",
     answer:
-      "Les apps classiques te montrent des chiffres. Atlas te dit ce que ces chiffres signifient vraiment : est-ce que tu progresses, est-ce que tu stagnes, est-ce que ton volume est efficace ou non. C'est de l'intelligence de progression, pas du simple logging.",
+      "Les apps classiques enregistrent tes séances. Altère te montre ce que ton entraînement produit dans le temps : progression réelle, stagnation ou surcharge. Tu ne te contentes plus de suivre tes entraînements, tu comprends leur efficacité.",
   },
   {
-    question: "Comment l'app détecte-t-elle la stagnation ?",
+    question: "Comment l'app détecte la stagnation ?",
     answer:
-      "Atlas analyse l'évolution de tes charges, de ton volume et de tes reps sur plusieurs semaines. Si tes performances ne progressent plus sur une période significative, l'app te le signale clairement avec une explication.",
+      "Altère analyse l’évolution de tes performances (charges, répétitions, volume) sur plusieurs semaines. Si aucune progression significative n’est détectée sur une période donnée, l’app met en évidence une stagnation probable de manière simple et lisible.",
   },
   {
     question: "Faut-il un niveau avancé pour utiliser l'app ?",
     answer:
-      "Non. Atlas est conçu pour tout pratiquant sérieux, débutant avancé ou intermédiaire. L'analyse est présentée de façon simple et lisible, sans jargon scientifique.",
+      "Non. Altère est conçue pour tous les pratiquants réguliers, du débutant sérieux à l’intermédiaire avancé. L’objectif est de simplifier la compréhension de ta progression, sans connaissances techniques nécessaires.",
   },
   {
     question: "L'app me dit quoi faire ou je dois choisir mon programme ?",
     answer:
-      "Atlas ne te dicte pas un programme. Elle t'aide à comprendre si ce que tu fais fonctionne. Tu gardes la liberté de ton entraînement, l'app t'apporte la lecture intelligente.",
+      "Altère ne remplace pas ton programme d’entraînement. Elle t’aide à comprendre si ce que tu fais fonctionne et à identifier les ajustements possibles pour progresser.",
   },
   {
     question: "Disponible sur iOS et Android ?",
-    answer: "Oui, Atlas sera disponible sur l'App Store et Google Play.",
+    answer: "Oui. Altère sera disponible sur iOS et Android au lancement.",
   },
   {
     question: "Puis-je essayer avant de payer ?",
     answer:
-      "Absolument. La version gratuite te permet de tracker tes séances et d'accéder aux analyses de base sans limite de durée. Le plan Pro débloque l'analyse complète de progression et le feedback intelligent.",
+      "Oui. Une version gratuite permet de suivre tes séances et de visualiser ta progression. Les fonctionnalités avancées d’analyse et de lecture de progression sont disponibles dans la version Pro.",
   },
 ];

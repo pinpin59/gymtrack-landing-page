@@ -37,7 +37,7 @@ const EmailCapture: React.FC<EmailCaptureProps> = ({ dark = false }) => {
         <div className="text-2xl">🎉</div>
         <p className="font-semibold text-lg">Tu es sur la liste !</p>
         <p className={`text-sm ${dark ? "text-gray-300" : "text-gray-500"}`}>
-          On te prévient en premier dès que Atlas est disponible.
+          On te prévient en premier dès que Altère est disponible.
         </p>
       </div>
     );

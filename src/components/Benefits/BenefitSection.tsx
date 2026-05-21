@@ -67,14 +67,14 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
             width={504}
             height={762}
             quality={100}
-            style={{ width: "auto", height: "200px" }}
+            style={{ width: "auto", height: "400px" }}
           />
         </div>
         {/* Contenu */}
         <div className="px-5 pb-7 pt-4">
           <motion.div variants={childVariants}>
             <SectionTitle>
-              <h3 className="text-left">{title}</h3>
+              <h3 className="text-center my-5">{title}</h3>
             </SectionTitle>
             <p className="mt-2 text-sm leading-relaxed text-foreground-accent">
               {description}

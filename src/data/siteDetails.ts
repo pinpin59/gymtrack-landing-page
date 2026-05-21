@@ -1,10 +1,10 @@
 export const siteDetails = {
-  siteName: "Atlas",
-  siteUrl: "https://Atlas.app/",
+  siteName: "Altère",
+  siteUrl: "https://Altère.app/",
   metadata: {
-    title: "Atlas — Sais-tu vraiment si tu progresses ?",
+    title: "Altère — Sais-tu vraiment si tu progresses ?",
     description:
-      "Atlas analyse ta progression en musculation et te dit si tu progresses vraiment ou si tu stagnes sans le savoir.",
+      "Altère analyse ta progression en musculation et te dit si tu progresses vraiment ou si tu stagnes sans le savoir.",
   },
   language: "fr",
   locale: "fr-FR",

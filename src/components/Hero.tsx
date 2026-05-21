@@ -40,12 +40,12 @@ const Hero: React.FC = () => {
           width={384}
           height={340}
           quality={100}
-          sizes="(max-width: 640px) 260px, (max-width: 768px) 300px, 384px"
+          sizes="(max-width: 768px) 100vw, 384px"
           priority={true}
           unoptimized={true}
           alt="app mockup"
-          className="relative mt-10 md:mt-16 mx-auto z-10"
-          style={{ width: '100%', maxWidth: '260px', height: 'auto' }}
+          className="relative mt-10 md:mt-16 mx-auto z-10 w-full max-w-[260px] sm:max-w-xs md:max-w-sm lg:max-w-md h-auto"
+          style={{ height: "auto" }}
         />
       </div>
     </section>

@@ -1,6 +1,6 @@
 export const heroDetails = {
-  heading: "Tu t'entraînes dur. Mais est-ce que tu progresses vraiment ?",
+  heading: "Comprends si ton entraînement te fait vraiment progresser",
   subheading:
-    "La plupart des pratiquants stagnent sans le savoir. Atlas va changer ça — inscris-toi pour être parmi les premiers à y avoir accès.",
+    "Tu t’entraînes sérieusement. Mais sans suivi clair, difficile de savoir si tes efforts te font réellement avancer. Altère transforme tes séances en lecture simple de ta progression.",
   centerImageSrc: "/images/homeRemove.png",
 };

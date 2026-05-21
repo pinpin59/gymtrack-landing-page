@@ -6,21 +6,21 @@ const steps = [
     icon: <FiEdit3 size={28} className="text-primary" />,
     title: "Tu enregistres ta séance",
     description:
-      "Charges, reps, séries — saisi en quelques secondes. Pas de friction, pas de formulaires compliqués. Juste l'essentiel.",
+      "Charges, répétitions, séries — tu notes simplement ce que tu fais. Rapide, sans friction, sans complexité inutile.",
   },
   {
     number: "02",
     icon: <FiBarChart2 size={28} className="text-primary" />,
-    title: "Atlas analyse tes données",
+    title: "Altère structure ta progression",
     description:
-      "L'app compare tes performances semaine après semaine, détecte les tendances et lit ton volume réel sur le long terme.",
+      "L’app organise tes séances dans le temps et analyse l’évolution de tes performances. Elle met en évidence ce que tes données disent vraiment.",
   },
   {
     number: "03",
     icon: <FiMessageCircle size={28} className="text-primary" />,
-    title: "Tu reçois un verdict clair",
+    title: "Tu vois clairement où tu en es",
     description:
-      '"Tu progresses", "stagnation probable" ou "volume trop élevé". Pas de graphiques à interpréter — juste la réponse.',
+      "Progression, stagnation ou surcharge — tu comprends immédiatement l’état de ton entraînement.",
   },
 ];
 
@@ -32,7 +32,7 @@ const HowItWorks: React.FC = () => {
           Comment ça marche
         </p>
         <h2 className="text-2xl sm:text-3xl font-bold text-center text-foreground mb-12">
-          De la séance au verdict en 3 étapes
+          De tes séances à ta progression réelle — en 3 étapes
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative">

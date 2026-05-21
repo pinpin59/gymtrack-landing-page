@@ -23,7 +23,7 @@ export const footerDetails: {
       url: "#testimonials",
     },
   ],
-  email: "contact@Atlas.app",
+  email: "contact@Altère.app",
   telephone: "+33 1 23 45 67 89",
   socials: {
     // github: 'https://github.com',
