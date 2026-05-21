@@ -47,9 +47,9 @@ const EmailCapture: React.FC<EmailCaptureProps> = ({ dark = false }) => {
     <form
       onSubmit={handleSubmit}
       method="POST"
-      className="flex flex-col sm:flex-row gap-3 w-full max-w-md mx-auto"
+      className="flex flex-col w-full max-w-md mx-auto"
     >
-      <div className="flex flex-col flex-1 gap-1">
+      <div className="flex flex-1 gap-1">
         <input
           type="email"
           name="email"
@@ -64,14 +64,18 @@ const EmailCapture: React.FC<EmailCaptureProps> = ({ dark = false }) => {
                             : "bg-white border-gray-200 text-gray-900 placeholder:text-gray-400 shadow-sm"
                         }`}
         />
-        {error && <span className="text-red-400 text-xs pl-1">{error}</span>}
+        <button
+          type="submit"
+          className="whitespace-nowrap rounded-xl bg-primary hover:bg-primary-accent active:bg-primary-accent text-white font-semibold px-6 py-3 text-sm transition-colors cursor-pointer"
+        >
+          Rejoindre la liste
+        </button>
       </div>
-      <button
-        type="submit"
-        className="whitespace-nowrap rounded-xl bg-primary hover:bg-primary-accent active:bg-primary-accent text-white font-semibold px-6 py-3 text-sm transition-colors cursor-pointer"
-      >
-        Rejoindre la liste
-      </button>
+      {error && (
+        <span className="text-red-400 text-xs pl-1 mt-2 text-left block">
+          {error}
+        </span>
+      )}
     </form>
   );
 };
